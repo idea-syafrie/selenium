@@ -1,0 +1,264 @@
+{
+  "id": "a5decc77-c0f7-4841-8ed1-fce0587e4aa3",
+  "version": "2.0",
+  "name": "CART",
+  "url": "https://www.elevenia.co.id",
+  "tests": [{
+    "id": "5fef4569-c3ba-48b6-bef9-2eb9804b44ca",
+    "name": "Delete from cert",
+    "commands": [{
+      "id": "b7fecb78-1a8f-4347-abc9-f863708eb6ac",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83a252f2-3d30-47d1-90bd-ba5f05d9ea00",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd6c89a5-2530-4876-9da5-63063edeaa84",
+      "comment": "",
+      "command": "click",
+      "target": "id=AKCKwd",
+      "targets": [
+        ["id=AKCKwd", "id"],
+        ["css=#AKCKwd", "css:finder"],
+        ["xpath=//input[@id='AKCKwd']", "xpath:attributes"],
+        ["xpath=//form[@id='AKCFrm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd53c8b7-a4af-4d17-9ce2-a73deca7b025",
+      "comment": "",
+      "command": "type",
+      "target": "id=AKCKwd",
+      "targets": [
+        ["id=AKCKwd", "id"],
+        ["css=#AKCKwd", "css:finder"],
+        ["xpath=//input[@id='AKCKwd']", "xpath:attributes"],
+        ["xpath=//form[@id='AKCFrm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "komputer"
+    }, {
+      "id": "c0f36d9d-a89f-4745-9651-aeb7bb41f302",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=AKCKwd",
+      "targets": [
+        ["id=AKCKwd", "id"],
+        ["css=#AKCKwd", "css:finder"],
+        ["xpath=//input[@id='AKCKwd']", "xpath:attributes"],
+        ["xpath=//form[@id='AKCFrm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "584de65a-836f-49ae-9f7b-98421a79678b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Produk terlaris",
+      "targets": [
+        ["linkText=Produk terlaris", "linkText"],
+        ["css=.linkSort > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Produk terlaris')]", "xpath:link"],
+        ["xpath=(//a[@name='sortCdBtn'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='searchCondition_wrap']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[40]", "xpath:href"],
+        ["xpath=//article[2]/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Produk terlaris')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60a94487-d78d-4e63-9d43-a0bfa3a484d0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,305.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fc4d503-f469-45cc-875a-efb216c7d4e8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=JOYSEUS Wireless Mouse 1800DPI USB Computer 2.4GHz Mouse - MS0003",
+      "targets": [
+        ["linkText=JOYSEUS Wireless Mouse 1800DPI USB Computer 2.4GHz Mouse - MS0003", "linkText"],
+        ["css=#prod_28911164 .pordLink", "css:finder"],
+        ["xpath=//a[contains(text(),'JOYSEUS Wireless Mouse 1800DPI USB Computer 2.4GHz Mouse - MS0003')]", "xpath:link"],
+        ["xpath=//li[@id='prod_28911164']/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.elevenia.co.id/prd-joyseus-wireless-mouse-1800dpi-usb-computer-2-4ghz-mouse-ms0-28911164'])[2]", "xpath:href"],
+        ["xpath=//li/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'JOYSEUS Wireless Mouse 1800DPI USB Computer 2.4GHz Mouse - MS0003')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46c5d274-400e-43c0-be65-03564dadfa0a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.amountArea:nth-child(2) .decre",
+      "targets": [
+        ["css=.amountArea:nth-child(2) .decre", "css:finder"],
+        ["xpath=//button[@onclick=\"javascript:_fnOptUpDownStockCnt(0, 'OPT', -1, 'N', ''); return false;\"]", "xpath:attributes"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Decrease')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d6526a2-6b3c-4484-96da-1750d0233ef4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.amountArea:nth-child(2) .incre",
+      "targets": [
+        ["css=.amountArea:nth-child(2) .incre", "css:finder"],
+        ["xpath=//button[@onclick=\"javascript:_fnOptUpDownStockCnt(0, 'OPT', 1, 'N', ''); return false;\"]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Increase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c883edc6-2a5f-4542-8569-a7beaee0daa9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.amountArea:nth-child(2) .incre",
+      "targets": [
+        ["css=.amountArea:nth-child(2) .incre", "css:finder"],
+        ["xpath=//button[@onclick=\"javascript:_fnOptUpDownStockCnt(0, 'OPT', 1, 'N', ''); return false;\"]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Increase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85e46377-f654-474b-891a-296092a860dd",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.amountArea:nth-child(2) .incre",
+      "targets": [
+        ["css=.amountArea:nth-child(2) .incre", "css:finder"],
+        ["xpath=//button[@onclick=\"javascript:_fnOptUpDownStockCnt(0, 'OPT', 1, 'N', ''); return false;\"]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Increase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8249fe7e-f50b-48a6-9422-5e55f73378d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnL:nth-child(1)",
+      "targets": [
+        ["css=.btnL:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tambahkan ke Cart')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:_InitLayer(); _goBasketProduct(); facbookPixelAddToCart();')]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbed217c-9016-4856-91dc-6ca0871b379e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ya",
+      "targets": [
+        ["linkText=Ya", "linkText"],
+        ["css=#mo_lay144 .btnRed", "css:finder"],
+        ["xpath=//a[contains(text(),'Ya')]", "xpath:link"],
+        ["xpath=//div[@id='mo_lay144']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.elevenia.co.id/cart/CartAction/getCartList.do']", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ya')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e48894a3-e093-4c88-a105-00723b8ce060",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > .terms > .btnStyle",
+      "targets": [
+        ["css=tr:nth-child(2) > .terms > .btnStyle", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ubah Kurir')])[2]", "xpath:link"],
+        ["xpath=(//a[@name='deliveryChangePopup'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='frmTmall']/table/tbody/tr[2]/td[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#none')])[4]", "xpath:href"],
+        ["xpath=//tr[2]/td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9eb06369-bc82-4d72-87df-da75b9b34473",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=4",
+      "targets": [
+        ["index=4"]
+      ],
+      "value": ""
+    }, {
+      "id": "b517fe32-1fc2-44f2-8c04-95506cc57880",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Batal",
+      "targets": [
+        ["linkText=Batal", "linkText"],
+        ["css=.btnWGray", "css:finder"],
+        ["xpath=//a[contains(text(),'Batal')]", "xpath:link"],
+        ["xpath=//form[@id='frm']/article/p[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:closeLayer();')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Batal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5299defb-26ec-4bac-9c50-f32525c58647",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "078d63eb-8e3f-4a3b-93b8-0e288baaf97a",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > .btn > .btnWGray",
+      "targets": [
+        ["css=tr:nth-child(2) > .btn > .btnWGray", "css:finder"],
+        ["xpath=(//a[contains(text(),'Hapus')])[2]", "xpath:link"],
+        ["xpath=//a[@onclick=\"javascript:funcDirectDel('269211359')\"]", "xpath:attributes"],
+        ["xpath=//form[@id='frmTmall']/table/tbody/tr[2]/td[7]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//tr[2]/td[7]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "839f22e4-742e-43d1-8588-dab0ee28ab91",
+      "comment": "",
+      "command": "click",
+      "target": "id=chkDelPopY",
+      "targets": [
+        ["id=chkDelPopY", "id"],
+        ["linkText=OK", "linkText"],
+        ["css=#chkDelPopY", "css:finder"],
+        ["xpath=(//a[contains(text(),'OK')])[2]", "xpath:link"],
+        ["xpath=//a[@id='chkDelPopY']", "xpath:attributes"],
+        ["xpath=//article[@id='popCon4']/p/span[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:CheckDelPop('Y');\")]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b28a132d-0694-44e4-98da-9018f52c8232",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5fef4569-c3ba-48b6-bef9-2eb9804b44ca"]
+  }],
+  "urls": ["https://www.elevenia.co.id/"],
+  "plugins": []
+}
